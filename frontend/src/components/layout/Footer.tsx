@@ -314,8 +314,8 @@ export const Footer: React.FC = () => {
                 <Mail size={18} color="var(--color-teal)" style={{ flexShrink: 0 }} />
                 <div>
                   <span style={{ color: '#CBD5E1' }}>Inquiries: </span>
-                  <a href="mailto:sales@yourdomain.com" style={{ color: '#FFFFFF', fontWeight: 600 }}>
-                    sales@yourdomain.com
+                  <a href="mailto:sales@auportablesolutions.com" style={{ color: '#FFFFFF', fontWeight: 600 }}>
+                    sales@auportablesolutions.com
                   </a>
                 </div>
               </div>
@@ -324,7 +324,7 @@ export const Footer: React.FC = () => {
                 <Globe size={18} color="var(--color-teal)" style={{ flexShrink: 0 }} />
                 <div>
                   <span style={{ color: '#CBD5E1' }}>Web: </span>
-                  <span style={{ color: '#FFFFFF' }}>www.yourdomain.com</span>
+                  <span style={{ color: '#FFFFFF' }}>www.auportablesolutions.com</span>
                 </div>
               </div>
             </div>

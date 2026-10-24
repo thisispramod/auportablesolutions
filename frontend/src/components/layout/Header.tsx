@@ -123,7 +123,7 @@ export const Header: React.FC<HeaderProps> = ({ onRequestQuote }) => {
               <span>Hotline: +91 __________</span>
             </a>
             <a
-              href="mailto:sales@yourdomain.com"
+              href="mailto:sales@auportablesolutions.com"
               className="hide-on-mobile"
               style={{
                 display: 'flex',
@@ -136,7 +136,7 @@ export const Header: React.FC<HeaderProps> = ({ onRequestQuote }) => {
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = '#E2E8F0')}
             >
               <Mail size={13} color="#0E9F8C" style={{ flexShrink: 0 }} />
-              <span>sales@yourdomain.com</span>
+              <span>sales@auportablesolutions.com</span>
             </a>
           </div>
         </div>

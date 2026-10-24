@@ -158,7 +158,7 @@ export const ContactPage: React.FC = () => {
                         <strong>Submission integration is pending backend deployment.</strong> Your enquiry parameters were validated client-side successfully, but no live API or database exists in this initial phase.
                       </p>
                       <p style={{ color: '#78350F', fontSize: '0.875rem', margin: '0.5rem 0 0' }}>
-                        No enquiry was sent to a server. For real business enquiries, please reach our team at <strong>sales@yourdomain.com</strong>.
+                        No enquiry was sent to a server. For real business enquiries, please reach our team at <strong>sales@auportablesolutions.com</strong>.
                       </p>
                     </div>
                   </div>
@@ -396,8 +396,8 @@ export const ContactPage: React.FC = () => {
                       <Mail size={18} color="var(--color-teal)" />
                       <div>
                         <span style={{ color: 'var(--color-text-muted)' }}>Email: </span>
-                        <a href="mailto:sales@yourdomain.com" style={{ color: 'var(--color-primary-navy)', fontWeight: 700 }}>
-                          sales@yourdomain.com
+                        <a href="mailto:sales@auportablesolutions.com" style={{ color: 'var(--color-primary-navy)', fontWeight: 700 }}>
+                          sales@auportablesolutions.com
                         </a>
                       </div>
                     </div>
