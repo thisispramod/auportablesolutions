@@ -96,7 +96,7 @@ export const ProductsPage: React.FC = () => {
             <div className="demo-banner">
               <AlertCircle size={20} style={{ flexShrink: 0, marginTop: '2px' }} />
               <div>
-                <strong>Local Sample Product Catalog:</strong> The products and specifications below reflect verified AU Portable Solutions profile categories. They are loaded from a separated local data module (`src/data/products.ts`) for this Phase 1 frontend interface.
+                <strong>Local Sample Product Catalog:</strong> The products and specifications below reflect verified AU Portable Solutions profile categories. They are loaded from a separated local data module .... for this Phase 1 frontend interface.
               </div>
             </div>
           </div>
