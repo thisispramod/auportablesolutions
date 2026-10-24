@@ -1,0 +1,13 @@
+# AU Portable Solutions - Apache SPA Routing Fix
+# Redirects all non-file, non-directory requests to index.html
+# so React Router can handle client-side navigation on page reload.
+
+Options -MultiViews
+RewriteEngine On
+
+# If the request is for an existing file or directory, serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise rewrite to index.html
+RewriteRule ^ index.html [L]
